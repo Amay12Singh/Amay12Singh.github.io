@@ -1,6 +1,9 @@
+body{
+    background-color: black;
+}
+
 h1{
     color:orange   
-
 }
 h1{
     font-variant: small-caps ;
@@ -17,7 +20,4 @@ li{
 }
 footer{
     color: white;
-}
-body{
-    background-color: black;
 }
