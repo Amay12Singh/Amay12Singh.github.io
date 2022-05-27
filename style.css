@@ -1,7 +1,12 @@
 h1{
-    color:orange
-    
+    color:orange   
 
+}
+h1{
+    font-variant: small-caps ;
+}
+h2{
+    font-variant: small-caps ;
 }
 
 h2{
