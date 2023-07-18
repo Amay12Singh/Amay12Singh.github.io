@@ -52,7 +52,7 @@
         .first{
             display:flex;
             justify-content: space-around;
-            margin : 70px 0;
+            margin : 120px 0;
             align-items: center;
             
 
@@ -70,7 +70,68 @@
             
         }
         .Purple{
-            color: rgb(145, 60, 225);
+            color: rgb(141, 62, 215);
+        }
+        #element{
+            color:rgb(141, 62, 215);
+        }
+        .second{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .second h1{
+            font-size: 1.5rem;
+        }
+        .second .box{
+            background:white;
+            width: 74vw;
+            height:2px;
+            margin:30px 0;
+            display: flex;
+        }
+        .second .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 130px;
+            
+
+        }
+
+        main hr {
+            background: rgb(48, 2, 92);         
+            border: 0;
+            
+            height: 1.2px; 
+            margin: 40px 84px;
+        
+
+        }
+        .text-gray{
+            color:grey;
+            
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            
+            
+        }
+        .vertical-desc{
+            position: relative;
+            top: 85px;
+            width: 150px;
+            color:grey;
+            font-size:  10px;
+
+        }
+        .img-top{
+            width: 24px;
+            position: relative;
+            top: -28px;
+            left: -9px;
         }
 
     </style>
@@ -95,14 +156,71 @@
             <div class="ltsection">
                 Hi, I am <span class="Purple"><b>Amay</b></span>
                 <div>and I am a passionate</div>
-                <div>Web Developer</div>
+                
+                <span id="element"></span>
             </div>
             <div class="rtsection">
                 <img src="bg.png" alt="Developer">
             </div>
+        
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-gray"> What I have done so far </span>
+            <h1>Past experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="dev.jpg" alt="developer">
+                    <div class="vertical-title">
+                        Web developer (2022-current)
+                    </div>
+                    <div class="vertical-desc">
+                        Front end developer
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aliquam, ex sunt dolore repellat quia necessitatibus sint perspiciatis corrupti consequatur, laudantium minima minus a quam aperiam quod delectus accusantium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.jpg" alt="developer">
+                    <div class="vertical-title">
+                        Web developer (2022-current)
+                    </div>
+                    <div class="vertical-desc">
+                        Front end developer
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aliquam, ex sunt dolore repellat quia necessitatibus sint perspiciatis corrupti consequatur, laudantium minima minus a quam aperiam quod delectus accusantium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.jpg" alt="developer">
+                    <div class="vertical-title">
+                        Web developer (2022-current)
+                    </div>
+                    <div class="vertical-desc">
+                        Front end developer
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aliquam, ex sunt dolore repellat quia necessitatibus sint perspiciatis corrupti consequatur, laudantium minima minus a quam aperiam quod delectus accusantium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.jpg" alt="developer">
+                    <div class="vertical-title">
+                        Web developer (2022-current)
+                    </div>
+                    <div class="vertical-desc">
+                        Front end developer
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aliquam, ex sunt dolore repellat quia necessitatibus sint perspiciatis corrupti consequatur, laudantium minima minus a quam aperiam quod delectus accusantium.
+                    </div>
+                </div>
+                
+            </div>
+
 
         </section>
+
     </main>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','UI Designer','Python Developer', 'Blockchain Developer'],typeSpeed: 70,
+        });
+      </script>
 </body>
 </html>
