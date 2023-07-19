@@ -235,7 +235,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: black; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -246,6 +246,7 @@ textarea {
         grid-gap: 8rem; } }
     .about__content-title {
       font-weight: 700;
+      color: white;
       font-size: 2.8rem;
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
@@ -253,7 +254,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: white;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -487,7 +488,7 @@ textarea {
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
+  
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -501,7 +502,7 @@ textarea {
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #ffffff;
     transition: color .3s; }
     .header__logo-container:hover {
       color: #0062b9; }
@@ -537,7 +538,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -657,10 +658,10 @@ textarea {
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
+    background: rgba(102, 1, 119, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: white; }
 
 .mouse {
   width: 25px;
