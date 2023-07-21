@@ -25,7 +25,7 @@ body {
   position: relative;
   line-height: 1.5;
   
-
+  background: url(../../assets/jpeg/bg8.jpg); 
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Poppins', sans-serif; }
@@ -186,7 +186,7 @@ textarea {
 .first{
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    
     margin-left: 120px;
     max-width: 140rem;
 }
@@ -210,9 +210,9 @@ textarea {
 }
 .home-hero {
   color: #fff;
-  background:rgb(0, 10, 64);
-  background: url(../../assets/jpeg/bg8.jpg); 
-  background: black; 
+  
+  
+  /*background: black;*/ 
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -275,9 +275,12 @@ textarea {
     margin-top: 5rem;
     text-align: left; }
 
-.about {
- 
-  background: url(../../assets/jpeg/bg4.jpg); }
+  .thick-dark-line {
+      border: 2px solid #333;
+      background-color: #333;
+      height: 2px;
+      margin: 30px 0;
+  }
   .heading-sec__main{
     color:rgb(7, 249, 193);
   }
@@ -369,7 +372,7 @@ textarea {
 
 .contact {
   
-  background: url(../../assets/jpeg/bg.jpg); 
+  
   background-size: cover;
   background-position: center; }
   .contact__form-container {
