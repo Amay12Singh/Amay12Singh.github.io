@@ -146,6 +146,11 @@ textarea {
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
+  .btn--bg2 {
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 1.25rem 6rem;
+    font-size: 1.6rem; }
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
@@ -191,7 +196,7 @@ textarea {
 }
 .left{
   font-size: 3.25rem;
-  margin-top: 185px;
+  margin-top: 100px;
   margin-right: 115px;
   margin-left: 18px;
   width: 80rem;
@@ -266,7 +271,7 @@ textarea {
   .home-hero__cta {
     
     margin-top: 5rem;
-    text-align: center; }
+    text-align: left; }
 
 .about {
  
