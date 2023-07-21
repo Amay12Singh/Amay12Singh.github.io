@@ -51,7 +51,7 @@ textarea {
   resize: none; }
 .purple{
     color:rgb(3, 202, 241);
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 .heading-primary {
   font-size: 6rem;
@@ -192,11 +192,11 @@ textarea {
 }
 .text{
   color:teal;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .left{
-  font-size: 3.25rem;
-  margin-top: 100px;
+  font-size: 3.5rem;
+  margin-top: 50px;
   margin-right: 115px;
   margin-left: 18px;
   width: 80rem;
@@ -204,13 +204,15 @@ textarea {
 .right{
   
   
-  margin-top: 40px;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-right: 100px;
 
 }
 .home-hero {
   color: #fff;
   background:rgb(0, 10, 64);
+  background: url(../../assets/jpeg/bg8.jpg); 
+  background: black; 
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -275,7 +277,7 @@ textarea {
 
 .about {
  
-  background: url(../../assets/jpeg/bg2.jpg); }
+  background: url(../../assets/jpeg/bg4.jpg); }
   .heading-sec__main{
     color:rgb(7, 249, 193);
   }
@@ -335,7 +337,7 @@ textarea {
     display: block;
     object-fit: cover; }
   .spimg{
-    width: 80%;
+    width: 120%;
     display: block;
     object-fit: cover;
   }

@@ -42,3 +42,7 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+const slidingWindow = document.querySelector('.sliding-window');
+const content = document.querySelector('.content');
+
+
