@@ -1,4 +1,10 @@
 // ---
+var typed = new Typed(".text", { 
+  strings: ["Software Engineer", "Frontend developer","Python Developer", "UI Designer"], 
+  typeSpeed: 200, 
+  backSpeed: 110, 
+  backDelay: 1200, 
+  loop: true})
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
 const smallMenu = document.querySelector('.header__sm-menu')
 const headerHamMenuBtn = document.querySelector('.header__main-ham-menu')
