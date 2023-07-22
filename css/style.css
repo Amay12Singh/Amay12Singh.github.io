@@ -51,10 +51,7 @@ button {
 textarea {
   resize: none; }
 
-.purple{
-    color:rgb(3, 202, 241);
-    font-size: 4.5rem;
-}
+
 .heading-primary {
   font-size: 6rem;
   
@@ -195,7 +192,11 @@ textarea {
     max-width: 140rem;
 }
 .text{
-  color:teal;
+  color:rgb(3, 202, 241);
+  font-size: 4.5rem;
+}
+.purple{
+  color:white;
   font-size: 4.5rem;
 }
 .left{
@@ -253,7 +254,8 @@ textarea {
     border-bottom: 2px solid #eee;
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
-      background: rgba(255, 255, 255, 0.1); }
+      background: rgba(101, 227, 255, 0.1);
+      width: 5.1rem; }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
   .home-hero__social-icon {
@@ -285,9 +287,11 @@ textarea {
     color:rgb(7, 249, 193);
   }
  
-  .heading-sec__sub{
-    color:rgb(18, 89, 212);
-    
+ 
+  .about{
+    background:url(../../assets/png/okbg.png);
+    background-size: cover;
+    background-position: center;
   }
   .about__content {
     display: grid;
@@ -307,11 +311,14 @@ textarea {
           
           font-size: 2.4rem; } }
     .about__content-details-para {
+      
+      text-align: justify;
       font-size: 1.8rem;
       color: white;
       max-width: 60rem;
       line-height: 1.7;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+       }
       .about__content-details-para--hl {
         font-weight: 700;
         margin: 0 3px; }
@@ -359,6 +366,7 @@ textarea {
         align-items: center; } }
     .projects__row-content-title {
       font-weight: 700;
+      color:rgb(7, 249, 193);
       font-size: 2.5rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
@@ -366,7 +374,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.5rem;
-      color: grey;
+      color: white;
       max-width: 60rem;
       line-height: 1.5;
       margin-bottom: 3rem; }
@@ -598,14 +606,16 @@ textarea {
   .header__link {
     padding: 2.2rem 3rem;
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #00a5d7;
+      font-size: 2.08rem;
+     }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -622,7 +632,7 @@ textarea {
   .header__main-ham-menu-close {
     width: 100%; }
   .header__sm-menu {
-    background: #fff;
+    background: black;
     position: absolute;
     width: 100%;
     top: 100%;
@@ -644,7 +654,7 @@ textarea {
     text-decoration: none;
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
-    color: #333;
+    color: white;
     text-align: right;
     border-bottom: 1px solid #eee;
     font-weight: 700;
