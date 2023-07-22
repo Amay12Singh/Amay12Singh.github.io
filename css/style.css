@@ -76,7 +76,7 @@ textarea {
 
 .heading-sec__main {
   display: block;
-  color:black;
+  color:white;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -85,13 +85,13 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color:black; }
+    color:white; }
     .heading-sec__main--lt::after {
       content: '';
       background: #fff !important; }
   .heading-sec__main::after {
     content: '';
-    color:black;
+    color:white;
     position: absolute;
     top: calc(100% + 1.5rem);
     height: 5px;
@@ -107,7 +107,7 @@ textarea {
 
 .heading-sec__sub {
   display: block;
-  text-align: center;
+  text-align: justify;
   color: #ffffff;
   font-size: 2rem;
   font-weight: 500;
@@ -118,9 +118,10 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: black; }
+    color: white; }
 
 .heading-sm {
+  color:rgb(7, 249, 193);
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: 1px; }
@@ -333,7 +334,7 @@ textarea {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 12rem; }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -347,9 +348,10 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 40%;
+    width: 70%;
     display: block;
-    object-fit: cover; }
+    object-fit: cover;
+    border-color: #17dcff; }
   .spimg{
     width: 110%;
     display: block;
@@ -386,7 +388,8 @@ textarea {
   
   background: url(../../assets/png/okbg.png); 
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+color: white; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: url(../../assets/png/okbg.png); 
@@ -696,6 +699,7 @@ textarea {
   .main-footer__short-desc {
     margin-top: 2rem;
     color: #eee;
+    text-align: justify;
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
