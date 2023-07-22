@@ -25,7 +25,8 @@ body {
   position: relative;
   line-height: 1.5;
   
-  background: url(../../assets/jpeg/bg8.jpg); 
+  background: url(../../assets/png/okbg.png); 
+  
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Poppins', sans-serif; }
@@ -49,6 +50,7 @@ button {
 
 textarea {
   resize: none; }
+
 .purple{
     color:rgb(3, 202, 241);
     font-size: 4.5rem;
@@ -132,8 +134,8 @@ textarea {
   width: 92%; }
 
 .btn{
-  background: #fff;
-  color: #333;
+  background: #0062b9;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -142,7 +144,9 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   .btn:hover {
-    transform: translateY(-3px); }
+    transform: translateY(-3px);
+    background: #17dcff;
+  }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
@@ -213,6 +217,7 @@ textarea {
   
   
   /*background: black;*/ 
+  background: url(../../assets/png/okbg.png); 
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -224,7 +229,7 @@ textarea {
       min-height: unset; } }
   .home-hero__socials {
     position: absolute;
-    top: 50%;
+    top: 48.5%;
     border: 2px solid #eee;
     border-left: 2px solid #eee;
     transform: translateY(-50%); }
@@ -275,12 +280,7 @@ textarea {
     margin-top: 5rem;
     text-align: left; }
 
-  .thick-dark-line {
-      border: 2px solid #333;
-      background-color: #333;
-      height: 2px;
-      margin: 30px 0;
-  }
+
   .heading-sec__main{
     color:rgb(7, 249, 193);
   }
@@ -317,7 +317,11 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
-
+.projects{
+  background: url(../../assets/png/bgprox.png); 
+  background-size: cover;
+  background-position: center;
+}
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -336,16 +340,16 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
+    width: 40%;
     display: block;
     object-fit: cover; }
   .spimg{
-    width: 120%;
+    width: 110%;
     display: block;
     object-fit: cover;
   }
   .projects__row-content {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -355,16 +359,16 @@ textarea {
         align-items: center; } }
     .projects__row-content-title {
       font-weight: 700;
-      font-size: 2.8rem;
+      font-size: 2.5rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       color: grey;
       max-width: 60rem;
-      line-height: 1.7;
+      line-height: 1.5;
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
@@ -372,15 +376,15 @@ textarea {
 
 .contact {
   
-  
+  background: url(../../assets/png/okbg.png); 
   background-size: cover;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: black;
+    background: url(../../assets/png/okbg.png); 
     padding: 4rem;
     margin-top: 6rem;
-    max-width: 80rem;
+    max-width: 60rem;
     text-align: right;
     width: 95%;
     border-radius: 5px;
@@ -411,12 +415,7 @@ textarea {
     background: #f0f0f0;
     border-radius: 5px;
     font-weight: 600;
-    /* Code for Modern Browsers */
-    /* Code for WebKit, Blink, Edge */
-    /* Code for Internet Explorer 10-11 */
-    /* Code for Microsoft Edge */
-    /* Code for Mozilla Firefox 4 to 18 */
-    /* Code for Mozilla Firefox 19+ */ }
+     }
     .contact__form-input::placeholder {
       color: #999;
       font-weight: 600;
@@ -444,8 +443,8 @@ textarea {
       font-weight: 600;
       font-size: 1.6rem; }
   .contact__btn {
-    width: 30%;
-    padding: 2rem 4rem;
+    width: 25%;
+    padding: 2rem 2rem;
     font-size: 1.6rem; }
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
@@ -563,8 +562,7 @@ textarea {
     cursor: pointer;
     color: #ffffff;
     transition: color .3s; }
-    .header__logo-container:hover {
-      color: #0062b9; }
+    
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -584,10 +582,14 @@ textarea {
     object-position: center;
     display: block; }
   .header__logo-sub {
-    font-size: 1.8rem;
+    
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px; 
+    .red{
+      color:rgb(255, 0, 111);
+    }}
   .header__links {
     display: flex; }
     @media only screen and (max-width: 37.5em) {
